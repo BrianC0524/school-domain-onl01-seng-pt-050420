@@ -37,10 +37,11 @@ class School
   
   def sort
     
-    
-    
-    @ROSTER.values.sort
-    
+    @ROSTER.each do |grade, students|
+      
+      
+      
+    end
     
   end
   
