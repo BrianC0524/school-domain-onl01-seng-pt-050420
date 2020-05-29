@@ -39,7 +39,7 @@ class School
     
     
     
-    @ROSTER[grade].sort
+    @ROSTER.sort.to_h
     
     
   end
