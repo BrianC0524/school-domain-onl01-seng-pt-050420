@@ -7,23 +7,23 @@ class School
     
     @name = name
     
-    @ROSTER = {}
+    @roster = {}
     
   end
   
   def roster
     
-    @ROSTER
+    @roster
     
   end
   
   def add_student(name, grade)
     
-   if !@ROSTER.include?(grade)
-     @ROSTER[grade] = []
+   if !@roster.include?(grade)
+     @roster[grade] = []
    end
    
-   @ROSTER[grade] << name
+   @roster[grade] << name
     
   end
   
@@ -38,6 +38,9 @@ class School
   def sort
     
     @ROSTER.each do |grade, students|
+      students.sort
+    end
+    @ROSTER
       
       
       
