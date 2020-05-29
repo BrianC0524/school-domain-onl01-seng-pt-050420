@@ -31,7 +31,7 @@ class School
     
     @grade = grade
     
-    @ROSTER[grade]
+    @roster[grade]
     
   end
   
