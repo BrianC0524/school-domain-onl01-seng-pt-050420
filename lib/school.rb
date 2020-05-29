@@ -37,10 +37,10 @@ class School
   
   def sort
     
-    @ROSTER.each do |grade, students|
+    @roster.each do |grade, students|
       students.sort
     end
-    @ROSTER
+    @roster
       
       
       
