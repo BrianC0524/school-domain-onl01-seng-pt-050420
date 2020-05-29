@@ -41,10 +41,6 @@ class School
       students.sort!
     end
     @roster
-      
-      
-      
-    end
     
   end
   
