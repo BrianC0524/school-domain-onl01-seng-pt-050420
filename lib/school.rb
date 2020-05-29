@@ -39,7 +39,7 @@ class School
     
     
     
-    @ROSTER.each {|grade, student| student.sort }.to_h
+    @ROSTER[grade].sort
     
     
   end
